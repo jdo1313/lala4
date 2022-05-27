@@ -30,7 +30,7 @@ case "$AppName" in
 		;;
 esac
 
-bash /conf/shadowsocks-libev_config.json >  /etc/shadowsocks-libev/config.json
+bash /conf/shs-libev_config.json >  /etc/shadowsocks-libev/config.json
 echo /etc/shadowsocks-libev/config.json
 cat /etc/shadowsocks-libev/config.json
 
